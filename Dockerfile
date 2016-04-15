@@ -1,7 +1,7 @@
 FROM islandora-claw/open-jdk
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
-LABEL "License"="GPLv3" \
+LABEL "License"="MIT" \
       "Version"="0.0.1"
 
 ARG MAVEN_VERSION="3.3.9"
