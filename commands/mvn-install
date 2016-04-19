@@ -2,6 +2,6 @@
 set -u
 main() {
     local host_build_directory="${1:-$PWD}"
-    docker run -it --rm -v $host_build_directory:/build -w="/build" islandora-claw/maven mvn install
+    docker run -it --rm -v $host_build_directory:/build -w="/build" islandora/claw-maven mvn install
 }
 main "$@"

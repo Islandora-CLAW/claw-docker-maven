@@ -1,9 +1,9 @@
 # Islandora CLAW: Maven Docker Image
 
-[![Docker Stars](https://img.shields.io/docker/stars/islandora-claw/maven.svg)](https://hub.docker.com/r/islandora-claw/maven/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/islandora-claw/maven.svg)](https://hub.docker.com/r/islandora-claw/maven/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/islandora-claw/maven/latest.svg)](https://imagelayers.io/?images=islandora-claw/maven:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/islandora-claw/maven/latest.svg)](https://imagelayers.io/?images=islandora-claw/maven:latest)
+[![Docker Stars](https://img.shields.io/docker/stars/islandora/claw-maven.svg)](https://hub.docker.com/r/islandora/claw-maven/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/islandora/claw-maven.svg)](https://hub.docker.com/r/islandora/claw-maven/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/islandora/claw-maven/latest.svg)](https://imagelayers.io/?images=islandora/claw-maven:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/islandora/claw-maven/latest.svg)](https://imagelayers.io/?images=islandora/claw-maven:latest)
 
 ### Introduction
 
@@ -27,7 +27,7 @@ the
 
 **Example:**
 ```bash
-docker build -t islandora-claw/maven .
+docker build -t islandora/claw-maven .
 ```
 
 ### Environment Variables
@@ -38,7 +38,7 @@ docker build -t islandora-claw/maven .
 
 **Example (foreground, auto-remove, interactive-shell):**
 ```bash
-docker run --rm -ti islandora-claw/maven ash
+docker run --rm -ti islandora/claw-maven ash
 ```
 
 ### Commands
