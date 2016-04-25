@@ -7,7 +7,7 @@
 
 Defines the Maven Docker image.
 
-Based on either the [Open JDK Docker Image](https://github.com/Islandora-CLAW/docker-open-jdk) or the [Oracle JDK Docker Image](https://github.com/Islandora-CLAW/docker-oracle-jdk).
+Based on either the [OpenJDK Docker Image](https://github.com/Islandora-CLAW/claw-docker-open-jdk).
 
 ## Includes
 
@@ -48,7 +48,7 @@ For convenience a number of commands are provided in the [commands](/commands) f
 
 ## Notes
 
-Eventually we will support running on either OpenJDK or Oracle JDK, but for the moment it only supports Open JDK.
+Eventually we will support running on either OpenJDK or Oracle JDK, but for the moment it only supports OpenJDK.
 
 ## Maintainers/Sponsors
 
