@@ -7,7 +7,8 @@
 
 Defines the Maven Docker image.
 
-Based on [OpenJDK Docker Image](https://github.com/Islandora-CLAW/claw-docker-open-jdk).
+Based on either the [OpenJDK Docker Image](https://github.com/Islandora-CLAW/claw-docker-open-jdk) or 
+[OracleJDK Docker Image](https://github.com/Islandora-CLAW/claw-docker-oracle-jdk).
 
 ## Includes
 
@@ -45,10 +46,6 @@ For convenience a number of commands are provided in the [commands](/commands) f
 | build       |           |          | Build this image with the default settings.                           |
 | run         |           | ash      | Start container, execute the given arguments as a command, then exit. |
 | mvn-install | path      | $PWD     | Perform ```mvn install``` in the given path then exit.                |
-
-## Notes
-
-Eventually we will support running on either OpenJDK or Oracle JDK, but for the moment it only supports OpenJDK.
 
 ## Maintainers/Sponsors
 
